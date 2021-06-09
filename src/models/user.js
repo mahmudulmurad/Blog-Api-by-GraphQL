@@ -34,8 +34,7 @@ const userSchema = new mongoose.Schema({
         }
     },
     followTags : [{
-        type : String,
-        unique: true
+        type : String
     }],
     tokens: [{
         token: {
